@@ -44,18 +44,20 @@ The dataset has been stored as a CSV file for easier loading and training. It co
 ```bash
 git clone https://github.com/your-username/hagrid-gesture-recognition.git
 cd hagrid-gesture-recognition
+```
 
 2- Create virtual environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
 3- Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 # Usage
 
@@ -66,7 +68,7 @@ Run the training script to train models and save the best ones:
 
 ```bash
 python train.py
-
+```
 
 2. Test on Video
 
@@ -74,7 +76,7 @@ Use the provided Jupyter Notebook to test gestures on a video file:
 
 ```bash
 jupyter notebook video_test.ipynb
-
+```
 
 3. Capture and Predict Gestures from Webcam
 
@@ -82,7 +84,7 @@ Use the Python script to capture video from a webcam and recognize gestures in r
 
 ```bash
 python capture_video.py
-
+```
 
 
 # Model Evaluation
@@ -111,12 +113,11 @@ Feel free to open issues, suggest improvements, or submit pull requests.
 
 # Acknowledgments
 
-HaGRID Dataset: Paper Link
-
-MediaPipe Hands: Google MediaPipe
+- **HaGRID Dataset:** [Paper Link]([https://arxiv.org/abs/2203.08216](https://paperswithcode.com/dataset/hagrid))  
+- **MediaPipe Hands:** [Google MediaPipe](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker)
 
 
 # Contact
 
 For any inquiries, reach out via:
-📧 Email: sara.abdullah00@eng-st.cu.edu.eg🔗 GitHub: your-github-profile
+📧 Email: sara.abdullah00@eng-st.cu.edu.eg   🔗 GitHub: SaraElwatany
