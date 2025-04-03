@@ -33,9 +33,10 @@ This project implements hand gesture recognition using classical machine learnin
 
 # Dataset
 
-The dataset has been preprocessed and stored as a CSV file for easier loading and training. It contains scaled landmark coordinates extracted from HaGRID and labeled gestures.
+The dataset has been stored as a CSV file for easier loading and training. It contains landmark coordinates extracted from HaGRID and labeled gestures.
 
-Installation
+
+# Installation
 
 # Clone the repository
 git clone https://github.com/your-username/hagrid-gesture-recognition.git
@@ -72,33 +73,14 @@ python capture_video.py
 
 # Model Evaluation
 
-Model
-
-Accuracy (%)
-
-SVM (Polynomial Kernel)
-
-97.8
-
-XGBoost
-
-97.6
-
-SVM (RBF Kernel)
-
-97.3
-
-Extra-Trees Classifier
-
-96.5
-
-Random Forest
-
-95.1
-
-Voting Classifier (Final)
-
-98.1
+|           Model          | Accuracy (%) |   
+|--------------------------|--------------|  
+|  SVM (Polynomial Kernel) | 97.8  |  
+| XGBoost | 97.6     |  
+| SVM (RBF Kernel) | 97.3   |  
+| Extra-Trees Classifier | 96.5  |  
+| Random Forest | 95.1  | Product Manager   |  
+| Voting Classifier (Final) | 98.1  |
 
 
 # Results & Stabilization
