@@ -38,35 +38,49 @@ The dataset has been stored as a CSV file for easier loading and training. It co
 
 # Installation
 
-# Clone the repository
+
+1- Clone the repository
+
+```bash
 git clone https://github.com/your-username/hagrid-gesture-recognition.git
 cd hagrid-gesture-recognition
 
-# Create virtual environment
+2- Create virtual environment
+
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-# Install dependencies
+3- Install dependencies
+
+```bash
 pip install -r requirements.txt
 
+
 # Usage
+
 
 1. Train the Model
 
 Run the training script to train models and save the best ones:
 
+```bash
 python train.py
+
 
 2. Test on Video
 
 Use the provided Jupyter Notebook to test gestures on a video file:
 
+```bash
 jupyter notebook video_test.ipynb
+
 
 3. Capture and Predict Gestures from Webcam
 
 Use the Python script to capture video from a webcam and recognize gestures in real-time:
 
+```bash
 python capture_video.py
 
 
@@ -75,12 +89,12 @@ python capture_video.py
 
 |           Model          | Accuracy (%) |   
 |--------------------------|--------------|  
-|  SVM (Polynomial Kernel) | 97.8  |  
-| XGBoost | 97.6     |  
-| SVM (RBF Kernel) | 97.3   |  
-| Extra-Trees Classifier | 96.5  |  
-| Random Forest | 95.1  | Product Manager   |  
-| Voting Classifier (Final) | 98.1  |
+|  SVM (Polynomial Kernel) | 97.8 |  
+| XGBoost | 97.6 |  
+| SVM (RBF Kernel) | 97.3 |  
+| Extra-Trees Classifier | 96.5 |  
+| Random Forest | 95.1 |  
+| Voting Classifier (Final) | 98.1 |
 
 
 # Results & Stabilization
