@@ -43,7 +43,7 @@ The dataset has been stored as a CSV file for easier loading and training. It co
 
 ```bash
 git clone https://github.com/your-username/hagrid-gesture-recognition.git
-cd hagrid-gesture-recognition
+cd HaGRID-Hand-Gesture-Recognition
 ```
 
 **2- Create virtual environment**
