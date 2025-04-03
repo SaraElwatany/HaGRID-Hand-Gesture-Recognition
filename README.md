@@ -68,7 +68,9 @@ Use the Python script to capture video from a webcam and recognize gestures in r
 
 python capture_video.py
 
-Model Evaluation
+
+
+# Model Evaluation
 
 Model
 
@@ -98,27 +100,27 @@ Voting Classifier (Final)
 
 98.1
 
-Results & Stabilization
 
-The final model achieves 98.1% accuracy.
+# Results & Stabilization
 
-To reduce sudden prediction fluctuations, a mode-based sliding window is applied.
+- The final model achieves 98.1% accuracy.
 
-Contributing
+- To reduce sudden prediction fluctuations, a mode-based sliding window is applied.
+
+
+# Contributing
 
 Feel free to open issues, suggest improvements, or submit pull requests.
 
-Acknowledgments
+
+# Acknowledgments
 
 HaGRID Dataset: Paper Link
 
 MediaPipe Hands: Google MediaPipe
 
-License
 
-This project is licensed under the MIT License.
-
-Contact
+# Contact
 
 For any inquiries, reach out via:
-📧 Email: your-email@example.com🔗 GitHub: your-github-profile
+📧 Email: sara.abdullah00@eng-st.cu.edu.eg🔗 GitHub: your-github-profile
