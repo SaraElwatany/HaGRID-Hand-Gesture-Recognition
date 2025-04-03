@@ -67,7 +67,7 @@ pip install -r requirements.txt
 Run the training script to train models and save the best ones:
 
 ```bash
-jupyter Machine_Learning_Model_Building_Final_Project.ipynb
+jupyter notebook Machine_Learning_Model_Building_Final_Project.ipynb
 ```
 
 **2. Test on Video**
@@ -75,7 +75,7 @@ jupyter Machine_Learning_Model_Building_Final_Project.ipynb
 Use the provided Jupyter Notebook to test gestures on a video file:
 
 ```bash
-jupyter notebook video_test.ipynb
+jupyter notebook Video_Testing.ipynb
 ```
 
 **3. Capture and Predict Gestures from Webcam**
@@ -83,7 +83,7 @@ jupyter notebook video_test.ipynb
 Use the Python script to capture video from a webcam and recognize gestures in real-time:
 
 ```bash
-python capture_video.py
+python Video_Capturing.py
 ```
 
 
