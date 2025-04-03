@@ -50,7 +50,7 @@ cd hagrid-gesture-recognition
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+source venv/bin/activate              # On Windows use: venv\Scripts\activate
 ```
 
 **3- Install dependencies**
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 Run the training script to train models and save the best ones:
 
 ```bash
-python train.py
+jupyter Machine_Learning_Model_Building_Final_Project.ipynb
 ```
 
 **2. Test on Video**
