@@ -1,1 +1,1 @@
-# HaGRID---Hand-Gesture-Recognition
+# HaGRID Hand-Gesture-Recognition
