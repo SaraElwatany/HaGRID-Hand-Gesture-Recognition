@@ -70,20 +70,20 @@ Run the training script to train models and save the best ones:
 jupyter notebook Machine_Learning_Model_Building_Final_Project.ipynb
 ```
 
-**2. Test on Video**
+**2. Capture Gestures from Webcam**
 
-Use the provided Jupyter Notebook to test gestures on a video file:
-
-```bash
-jupyter notebook Video_Testing.ipynb
-```
-
-**3. Capture and Predict Gestures from Webcam**
-
-Use the Python script to capture video from a webcam and recognize gestures in real-time:
+Use the Python script to capture video from a webcam in real-time:
 
 ```bash
 python Video_Capturing.py
+```
+
+**3. Test on Video**
+
+Use the provided Jupyter Notebook to test gestures on the video file:
+
+```bash
+jupyter notebook Video_Testing.ipynb
 ```
 
 
