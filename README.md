@@ -42,7 +42,7 @@ The dataset has been stored as a CSV file for easier loading and training. It co
 **1- Clone the repository**
 
 ```bash
-git clone [https://github.com/your-username/hagrid-gesture-recognition.git](https://github.com/SaraElwatany/HaGRID-Hand-Gesture-Recognition.git)
+git clone https://github.com/SaraElwatany/HaGRID-Hand-Gesture-Recognition.git
 cd HaGRID-Hand-Gesture-Recognition
 ```
 
